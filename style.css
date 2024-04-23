@@ -1,0 +1,77 @@
+html {
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin:0px;
+}
+
+
+.Home {
+    background-image: url("../images/Artwork.png");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+    flex-grow: 1;
+    overflow-y: auto;
+    display: flex;
+}
+
+#left {
+    flex: 1 1 70%;
+}
+
+#left h1 {
+    text-align: center;
+    font-size: 300%;
+    text-shadow: 3px 3px gray;
+
+}
+
+#Project_Boxes {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 100%;
+    justify-content: center;
+}
+
+.project_box {
+    width: 30%;    
+    border: 4px solid ;
+    margin: 4% ;
+    background-color: black;
+  
+  }
+
+.vertical {
+    height: 100%;
+    border: 4px solid black;
+    opacity: 0.9;
+    transform: rotate(180deg);
+}
+
+#right {
+    flex: 1 1 25%;
+}
+
+#right h1 {
+    color: black;
+    text-shadow: 2px 2px gray;
+    text-align: center;
+    margin: 30%;
+    font-size: 300%
+}
+#right h2 {
+    color: black;
+    text-shadow: 2px 2px gray;
+    text-align: center;
+    margin: 20%;
+    font-size: 200%;
+  }
+  
+  
